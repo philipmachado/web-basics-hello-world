@@ -16,11 +16,6 @@ $(function() {
    * The function should call one of the functions below, and pass the other in as the callback...
    */
 });
-var el = document.getElementById("clickMe");
-if (el.addEventListener)
-    el.addEventListener("click", doFunction, false);
-else if (el.attachEvent)
-    el.attachEvent('onclick', doFunction);
     
 function displayQuestionAndAnswer(question, answer) {
   $("#results-area").text("True or false?");
