@@ -21,6 +21,7 @@ if (el.addEventListener)
     el.addEventListener("click", doFunction, false);
 else if (el.attachEvent)
     el.attachEvent('onclick', doFunction);
+    
 function displayQuestionAndAnswer(question, answer) {
   $("#results-area").text("True or false?");
   $("#question-display").text(question);
