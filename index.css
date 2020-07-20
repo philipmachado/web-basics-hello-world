@@ -8,6 +8,7 @@
 .blue {
         color: blue;
         font-family: serif;
+        font-size: 36;
 }
 /* #answer-display will have black text on a white background.
    Hovering the mouse over it will reveal the text */
